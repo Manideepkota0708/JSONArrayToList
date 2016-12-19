@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/single_item_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="userId:"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/etUserId" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="id:"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/etId" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="title:"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/etTitle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="body:"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/etBody" />
+    </LinearLayout>
+
+
+</LinearLayout>
