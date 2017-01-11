@@ -95,9 +95,11 @@ public class MainActivity extends AppCompatActivity {
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
-                        // Toast.makeText(MainActivity.this, stringFormOfJsonObject, Toast.LENGTH_SHORT).show();
 
                         //Succesfully Completed JSON ARRAY TO LIST
+                        // learning about git
+
+                        // 17:16:29
 
                     }
                 });
